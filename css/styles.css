@@ -1,5 +1,6 @@
 .galeria {
-  background: #f2f2f2; }
+  background: #f2f2f2;
+  margin-bottom: 0 !important; }
 
 .contenedor {
   padding: 40px 0; }
@@ -26,6 +27,17 @@
 
 .card-img {
   padding: 20px; }
+
+.card-title {
+  color: rosybrown; }
+
+.primersalto {
+  color: #6b6b6b;
+  text-align: left;
+  margin-top: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem; }
 
 * {
   margin: 0;
@@ -179,19 +191,23 @@ article.tipos-contentos {
   width: 40%;
   text-align: center; }
 
-.circulo {
-  background-image: url("https://i.ibb.co/4WxxDQJ/clienta.jpg");
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  border-radius: 50%;
-  background-size: 100% auto; }
-
-p.cliente {
-  padding: 20px; }
+.carousel-clientes {
+  background-color: #ffe0e0;
+  margin-top: 0;
+  height: 500px;
+  padding-top: 100px; }
+  .carousel-clientes .carousel-caption.d-none.d-md-block {
+    top: 230px; }
+  .carousel-clientes .carousel-inner,
+  .carousel-clientes .carousel-item .active {
+    padding: 30px 0 0 0;
+    height: 400px; }
+  .carousel-clientes .circulo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border-radius: 50%; }
 
 /*GALERIA MENU*/
 #h2galeria {
@@ -287,7 +303,3 @@ img.perro {
   text-align: center;
   padding: 30px;
   background-color: #888888; }
-
-  .card-title{
-    color: rosybrown;
-}

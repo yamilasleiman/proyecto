@@ -192,7 +192,7 @@ article.tipos-contentos {
   text-align: center; }
 
 .carousel-clientes {
-  background-color: #ffe0e0;
+  background-color: #ffecec;
   margin-top: 0;
   height: 500px;
   padding-top: 100px; }
@@ -208,6 +208,15 @@ article.tipos-contentos {
     border-radius: 50%;
     margin: 0 auto;
     border-radius: 50%; }
+  .carousel-clientes h5 {
+    color: rosybrown;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif; }
+  .carousel-clientes .dc {
+    color: rosybrown;
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif; }
 
 /*GALERIA MENU*/
 #h2galeria {
@@ -301,5 +310,11 @@ img.perro {
   font-size: 15px;
   font-weight: 300;
   text-align: center;
-  padding: 30px;
+  padding: 1px;
   background-color: #888888; }
+
+@media screen and (max-width: 400px) {
+  #fotografa {
+    margin-top: 50px;
+    font-size: 45px;
+    margin-bottom: 5px; } }

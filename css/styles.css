@@ -25,6 +25,24 @@
   margin: 50px auto;
   padding: 20px 50px; }
 
+@media (max-width: 768px) {
+  a.menu {
+    padding: 36px;
+    color: #fff; }
+  .principal {
+    text-align: center;
+    padding: 57px; }
+  .nav-menu {
+    padding: 10px 25px;
+    top: 6px;
+    right: -23px;
+    left: -21px; }
+  #colorMenu {
+    font-size: 21px; }
+  .nav-menu .menu-right {
+    margin-top: 4px;
+    text-align: right; } }
+
 .card-img {
   padding: 20px; }
 
@@ -50,12 +68,12 @@ body {
 
 header {
   margin: 0 auto;
-  padding: 20px 50px;
+  padding: 70px 50px;
   background-image: url("https://i.ibb.co/Cnt41SR/banner2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh; }
+  height: auto; }
 
 section {
   margin: 50px auto;
@@ -149,7 +167,7 @@ h3 {
   font-weight: 100;
   font-size: 25px;
   font-family: 'Playfair Display', serif;
-  margin-top: 25px; }
+  margin: 20px; }
 
 .descripcion {
   display: flex;
@@ -210,8 +228,9 @@ article.tipos-contentos {
     border-radius: 50%; }
   .carousel-clientes h5 {
     color: rosybrown;
-    font-size: 25px;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 30px; }
   .carousel-clientes .dc {
     color: rosybrown;
     font-weight: 300;
@@ -305,6 +324,12 @@ img.perro {
   text-decoration: none;
   text-align: center; }
 
+h2.agradecimiento.animate__animated.animate__fadeInUp {
+  font-size: 55px;
+  margin-bottom: 31px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center; }
+
 /*FOOTER*/
 .footer {
   font-size: 15px;
@@ -313,8 +338,29 @@ img.perro {
   padding: 1px;
   background-color: #888888; }
 
-@media screen and (max-width: 400px) {
-  #fotografa {
-    margin-top: 50px;
-    font-size: 45px;
-    margin-bottom: 5px; } }
+@media (max-width: 768px) {
+  a.menu {
+    padding: 6px;
+    color: #fff; }
+  .principal {
+    text-align: center;
+    padding: 57px; }
+  .nav-menu {
+    padding: 10px 25px;
+    top: 6px;
+    right: -23px;
+    left: -21px; }
+  #colorMenu {
+    font-size: 21px;
+    width: 180px; }
+  .nav-menu .menu-right {
+    margin-top: 4px;
+    text-align: right; }
+  h1.animate__animated.animate__zoomIn {
+    font-size: 18px;
+    margin: 25px; }
+  a.ctaunico {
+    border-radius: 48px;
+    width: 147px;
+    font-size: 12px;
+    margin: 10px; } }

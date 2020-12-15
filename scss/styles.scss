@@ -66,7 +66,7 @@ a.menu:hover {
     padding: 10px 20px 10px 20px;
     background-color: $rosa-viejo;
     color: $blanco;
-    margin-top: 20px;
+    margin-top: 9px;
 }
 
 
@@ -128,14 +128,9 @@ section.banner {
 }
 
 /*MI DESCRIPCION*/
-
-
-
-
-h2.titulo-descripcion {
-    padding: 30px;
+h5.card-title {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
 }
 
 /*SECCION DE TIPOS DE FOTOS*/
@@ -145,6 +140,7 @@ h3{
     font-size: 25px;
     font-family: 'Playfair Display', serif;
     margin: 20px;
+    padding: 18px;
 }
 .descripcion{
     display: flex;
@@ -351,7 +347,7 @@ h2.agradecimiento.animate__animated.animate__fadeInUp {
 
 @media (max-width: 768px) {
     a.menu {
-        padding: 6px;
+        padding: 4px 2px;
         color: #fff;
     }
     .principal {
@@ -359,13 +355,20 @@ h2.agradecimiento.animate__animated.animate__fadeInUp {
         padding: 57px;
     }
     .nav-menu {
-        padding: 10px 25px;
-        top: 6px;
-        right: -23px;
-        left: -21px;
+        padding: 13px 25px;
+        top: 8px;
+        right: 0px;
+        left: -7px;
     }
+    .nav-menu {
+        padding: 13px 25px;
+        top: 8px;
+        right: 0px;
+        left: -7px;
+    }
+    
     #colorMenu {
-        font-size: 21px;
+        font-size: 18px;
         width: 180px;
     }
     .nav-menu .menu-right {
@@ -381,5 +384,26 @@ h2.agradecimiento.animate__animated.animate__fadeInUp {
         width: 147px;
         font-size: 12px;
         margin: 10px;
+    }
+    .card-img {
+        padding: 28px;
+        margin: -17px 0px 0px 0px;
+    }
+    .card-img, .card-img-bottom, .card-img-top {
+        flex-shrink: 0;
+        width: 66%;
+    }
+    .tipos {
+        margin: 15px;;
+    }
+    section {
+        margin: 50px auto;
+        padding: 20px 0px;
+    }
+    h3 {
+        padding: 13px;
+    }
+    .cta {
+        margin-top: 4px;
     }
 }

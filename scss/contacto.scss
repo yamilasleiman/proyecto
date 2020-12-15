@@ -3,27 +3,3 @@
     margin: 50px auto;
     padding: 20px 50px;
 }
-
-@media (max-width: 768px) {
-    a.menu {
-        padding: 36px;
-        color: #fff;
-    }
-    .principal {
-        text-align: center;
-        padding: 57px;
-    }
-    .nav-menu {
-        padding: 10px 25px;
-        top: 6px;
-        right: -23px;
-        left: -21px;
-    }
-    #colorMenu {
-        font-size: 21px;
-    }
-    .nav-menu .menu-right {
-        margin-top: 4px;
-        text-align: right;
-    }
-}
